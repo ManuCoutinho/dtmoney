@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import { Container } from "./styles";
 import { useTransactions } from "../../hooks/useTransactions";
 

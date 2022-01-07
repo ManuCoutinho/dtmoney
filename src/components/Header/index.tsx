@@ -1,5 +1,4 @@
-import { useState } from "react";
-import logoImg from "../../assets/logo.svg";
+import logoImg from "../../assets/logo.png";
 import { Container, Content } from "./styles";
 
 interface HeaderProps {
@@ -10,7 +9,7 @@ export function Header({ onOpenNewTransactionModal } : HeaderProps) {
    return (
       <Container>
          <Content>
-            <img src={logoImg} alt="logo dt money" />
+           <h1><img src={logoImg}></img>Your Money</h1>            
             <button type="button" onClick={ onOpenNewTransactionModal }>
                Nova transação
             </button>            

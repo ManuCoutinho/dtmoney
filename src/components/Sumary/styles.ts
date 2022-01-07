@@ -7,7 +7,7 @@ export const Container = styled.div`
    margin-top: -10rem;
 
    div { 
-      background: var(--shape);
+      background: var(--white);
       padding: 1.5rem 2rem;
       border-radius: 0.25rem;
       color: var(--text-title);
@@ -26,8 +26,8 @@ export const Container = styled.div`
          line-height: 3rem;
       }
 
-      &.hilight-background {
-         background: var(--green);
+      &.highlight-background {
+         background: var(--blue);
          color: #FFF;
       }
    }

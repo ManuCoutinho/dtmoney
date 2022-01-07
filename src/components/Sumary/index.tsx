@@ -53,7 +53,7 @@ export function Sumary() {
             }).format(sumary.withdraws)}
             </strong>
          </div>
-         <div className="hilight-background">
+         <div className="highlight-background">
             <header>
                <p>Total</p>
                <img src={ totalImg } alt="ícone de total" />
